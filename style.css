@@ -37,7 +37,12 @@ html {
 
   color: white;
 }
-
+.toside{
+  transition: .5s;
+  position: relative;
+  left: 85%;
+  
+}
 /*  */
 #src {
   position: absolute;
@@ -161,6 +166,7 @@ p {
 }
 .discription {
   text-indent: 3em;
+  
 }
 textarea {
   border-radius: 5px;
@@ -170,6 +176,7 @@ textarea {
   outline: none;
   color: rgb(51, 50, 49);
   text-decoration: none;
+  padding: 10px;
 }
 #last {
   margin-bottom: 2em;

@@ -1,6 +1,14 @@
 function like(colors) { 
   colors.classList.toggle("red")
  }
+ function dissapper() {
+   console.log("clcickkd");
+   let values = document.querySelector(".inputSearch").value;
+
+   document.querySelector("#mike").style.display = "none";
+   document.querySelector("#lens").style.display = "none";
+   document.querySelector("#src").classList.add("toside");
+ }
 window.onload = function () {
   
   weather("byndoor");
